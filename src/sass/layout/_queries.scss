@@ -1,0 +1,64 @@
+@media only screen and (max-width: 376px) {
+  .container {
+    width: 92.5vw;
+    height: 80vh;
+    border-radius: 2rem 2rem 10rem 2rem;
+  }
+
+  ////////////////////////////////////////
+  //------------- form -----------------//
+  ////////////////////////////////////////
+
+  // <!-- form input -->
+
+  .form {
+    height: 40%;
+    padding: 4rem 2.5rem;
+  }
+
+  .form__inputs {
+    height: 70%;
+    gap: 1.5rem;
+  }
+
+  .form__input {
+    width: 33%;
+    height: 85%;
+  }
+
+  .label {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .input {
+    font-size: 2.2rem;
+    text-indent: 1rem;
+  }
+
+  // <!-- form border -->
+
+  .form__border {
+    width: calc(100% - 5rem);
+  }
+
+  .form__button {
+    width: 6.5rem;
+    height: 6.5rem;
+    right: 40%;
+  }
+
+  .form__button img {
+    width: 45%;
+  }
+
+  ////////////////////////////////////////
+  //------------- result ---------------//
+  ////////////////////////////////////////
+
+  .result {
+    height: 60%;
+    font-size: 5.2rem;
+    padding: 6.2rem 2.5rem 0 2.5rem;
+  }
+}

@@ -1,0 +1,10 @@
+@mixin centerBlock {
+  display: block;
+  margin: 0 auto;
+}
+
+@mixin centerFlex($justify) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}

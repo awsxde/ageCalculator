@@ -1,0 +1,131 @@
+.container {
+  width: 60vw;
+  height: 90vh;
+  border-radius: 2rem 2rem 20rem 2rem;
+
+  background-color: $White;
+}
+
+////////////////////////////////////////
+//------------- form -----------------//
+////////////////////////////////////////
+
+// <!-- form input -->
+
+.form {
+  width: 100%;
+  height: 32.1%;
+  padding: 4rem 5rem;
+
+  position: relative;
+}
+
+.form__inputs {
+  height: calc(80% + 1rem);
+  display: flex;
+  gap: 3rem;
+}
+
+.form__input {
+  width: 20%;
+  height: 90%;
+}
+
+.label {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.label-name {
+  width: 100%;
+  height: 20%;
+
+  display: block;
+  color: $Smokey-grey;
+  font-weight: 700;
+}
+
+.label-error {
+  color: $Light-red;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.input {
+  width: 100%;
+  height: 80%;
+  margin-top: 1rem;
+
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid $Light-grey;
+  font-size: 3.2rem;
+  font-weight: 800;
+  text-indent: 2rem;
+  caret-color: $Purple;
+  background-color: none;
+}
+
+.input:hover {
+  border: 1px solid $Purple;
+}
+
+.input--error {
+  border: 1px solid $Light-red;
+}
+
+// <!-- form border -->
+
+.form__border {
+  width: calc(100% - 10rem);
+  height: 0.1rem;
+  background-color: $Light-grey;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.form__button {
+  width: 7.5rem;
+  height: 7.5rem;
+
+  position: absolute;
+  right: 5rem;
+  bottom: -3.25rem;
+
+  border-radius: 50%;
+  @include centerFlex(center);
+
+  font-size: 3rem;
+  border: none;
+  color: $White;
+  background-color: $Purple;
+}
+
+.form__button img {
+  width: 50%;
+}
+
+.form__button:hover,
+.form__button:active {
+  background-color: $Off-black;
+}
+
+////////////////////////////////////////
+//------------- result ---------------//
+////////////////////////////////////////
+
+.result {
+  width: 100%;
+  height: 67.9%;
+  padding: 2rem 5rem 0 5rem;
+
+  font-size: 10rem;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.1;
+}
+
+.result span {
+  color: $Purple;
+}
